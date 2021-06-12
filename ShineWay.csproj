@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="UserInterfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\.nuget\packages\mysql.data\8.0.25\lib\netstandard2.1\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net">
+      <HintPath>..\..\..\.nuget\packages\mysql.data\8.0.25\lib\netstandard2.1\Zstandard.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
