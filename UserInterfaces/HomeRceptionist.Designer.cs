@@ -32,7 +32,7 @@ namespace ShineWay.UserInterfaces
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeRceptionist));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlSelector = new System.Windows.Forms.Panel();
             this.btnOwnerPayment = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnPayments = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@ namespace ShineWay.UserInterfaces
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.pnlSelector);
             this.panel2.Controls.Add(this.btnOwnerPayment);
             this.panel2.Controls.Add(this.btnUsers);
             this.panel2.Controls.Add(this.btnPayments);
@@ -71,13 +71,13 @@ namespace ShineWay.UserInterfaces
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // panel3
+            // pnlSelector
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(217)))), ((int)(((byte)(230)))));
-            this.panel3.Location = new System.Drawing.Point(100, 93);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(51, 10);
-            this.panel3.TabIndex = 8;
+            this.pnlSelector.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(217)))), ((int)(((byte)(230)))));
+            this.pnlSelector.Location = new System.Drawing.Point(100, 93);
+            this.pnlSelector.Name = "pnlSelector";
+            this.pnlSelector.Size = new System.Drawing.Size(51, 10);
+            this.pnlSelector.TabIndex = 8;
             // 
             // btnOwnerPayment
             // 
@@ -218,6 +218,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Button btnCustomers;
         private System.Windows.Forms.Button btnBooking;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlSelector;
     }
 }
