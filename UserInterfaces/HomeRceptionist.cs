@@ -12,7 +12,9 @@ namespace ShineWay.UserInterfaces
     {
         public HomeRceptionist()
         {
+            StartTimer();
             InitializeComponent();
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -66,6 +68,20 @@ namespace ShineWay.UserInterfaces
             //set the selector panel to the current selected buton
             pnlSelector.Left = btn.Left;
             pnlSelector.Width = btn.Width;
+        }
+
+        System.Windows.Forms.Timer t = null;
+        private void StartTimer()
+        {
+            t = new Timer();
+            t.Interval = 1000;
+            t.Tick += new EventHandler(t_Tick);
+            t.Enabled = true;
+        }
+
+        void t_Tick(object sender, EventArgs e)
+        {
+            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
         }
     }
 }

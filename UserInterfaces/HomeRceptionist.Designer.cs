@@ -29,9 +29,11 @@ namespace ShineWay.UserInterfaces
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeRceptionist));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtTime = new System.Windows.Forms.Label();
             this.pnlSelector = new System.Windows.Forms.Panel();
             this.btnOwnerPayment = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
@@ -41,20 +43,28 @@ namespace ShineWay.UserInterfaces
             this.btnCustomers = new System.Windows.Forms.Button();
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.AutoSize = true;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1279, 721);
+            this.panel1.Size = new System.Drawing.Size(1920, 1080);
             this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.txtTime);
             this.panel2.Controls.Add(this.pnlSelector);
             this.panel2.Controls.Add(this.btnOwnerPayment);
             this.panel2.Controls.Add(this.btnUsers);
@@ -67,9 +77,19 @@ namespace ShineWay.UserInterfaces
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1279, 690);
+            this.panel2.Size = new System.Drawing.Size(1920, 119);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // txtTime
+            // 
+            this.txtTime.AutoSize = true;
+            this.txtTime.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.txtTime.Location = new System.Drawing.Point(1766, 66);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(0, 23);
+            this.txtTime.TabIndex = 1;
             // 
             // pnlSelector
             // 
@@ -191,18 +211,24 @@ namespace ShineWay.UserInterfaces
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.button1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            // 
             // HomeRceptionist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HomeRceptionist";
             this.Text = "Home";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -219,5 +245,7 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Button btnBooking;
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel pnlSelector;
+        private System.Windows.Forms.Label txtTime;
+        private System.Windows.Forms.Timer timer1;
     }
 }
