@@ -44,6 +44,7 @@ namespace ShineWay.UserInterfaces
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.booking1 = new ShineWay.Booking();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +56,7 @@ namespace ShineWay.UserInterfaces
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.booking1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
@@ -215,6 +217,13 @@ namespace ShineWay.UserInterfaces
             // 
             this.timer1.Enabled = true;
             // 
+            // booking1
+            // 
+            this.booking1.Location = new System.Drawing.Point(72, 164);
+            this.booking1.Name = "booking1";
+            this.booking1.Size = new System.Drawing.Size(1764, 801);
+            this.booking1.TabIndex = 1;
+            // 
             // HomeRceptionist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -247,5 +256,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Panel pnlSelector;
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer timer1;
+        private Booking booking1;
     }
 }
