@@ -5,15 +5,18 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using ShineWay.Beautify;
 
 namespace ShineWay.UserInterfaces
 {
     public partial class HomeRceptionist : Form
     {
-        public HomeRceptionist()
+        public HomeRceptionist(string userType)
         {
             StartTimer();
             InitializeComponent();
+            new DropShadow().ApplyShadows(this);
+            txtUserType.Text = userType;
             
         }
 

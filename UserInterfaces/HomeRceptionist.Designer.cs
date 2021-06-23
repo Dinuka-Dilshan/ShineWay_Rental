@@ -44,6 +44,7 @@ namespace ShineWay.UserInterfaces
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.txtUserType = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +65,7 @@ namespace ShineWay.UserInterfaces
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.txtUserType);
             this.panel2.Controls.Add(this.txtTime);
             this.panel2.Controls.Add(this.pnlSelector);
             this.panel2.Controls.Add(this.btnOwnerPayment);
@@ -215,6 +217,17 @@ namespace ShineWay.UserInterfaces
             // 
             this.timer1.Enabled = true;
             // 
+            // txtUserType
+            // 
+            this.txtUserType.AutoSize = true;
+            this.txtUserType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtUserType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.txtUserType.Location = new System.Drawing.Point(1525, 69);
+            this.txtUserType.Name = "txtUserType";
+            this.txtUserType.Size = new System.Drawing.Size(43, 19);
+            this.txtUserType.TabIndex = 1;
+            this.txtUserType.Text = "User";
+            // 
             // HomeRceptionist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -247,5 +260,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Panel pnlSelector;
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label txtUserType;
     }
 }
