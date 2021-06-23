@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dinuka Dilshan\\Desktop\\c#\\New folder\\ShineWay.csproj": {}
+    "G:\\C#\\Git\\ShineWay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dinuka Dilshan\\Desktop\\c#\\New folder\\ShineWay.csproj": {
+    "G:\\C#\\Git\\ShineWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dinuka Dilshan\\Desktop\\c#\\New folder\\ShineWay.csproj",
+        "projectUniqueName": "G:\\C#\\Git\\ShineWay.csproj",
         "projectName": "ShineWay",
-        "projectPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\c#\\New folder\\ShineWay.csproj",
-        "packagesPath": "C:\\Users\\Dinuka Dilshan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\c#\\New folder\\obj\\",
+        "projectPath": "G:\\C#\\Git\\ShineWay.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "G:\\C#\\Git\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dinuka Dilshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

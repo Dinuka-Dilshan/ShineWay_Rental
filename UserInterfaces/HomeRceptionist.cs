@@ -81,7 +81,7 @@ namespace ShineWay.UserInterfaces
 
         void t_Tick(object sender, EventArgs e)
         {
-            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
+            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt");
         }
     }
 }
