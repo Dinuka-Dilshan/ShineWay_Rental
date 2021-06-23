@@ -44,7 +44,7 @@ namespace ShineWay.UserInterfaces
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.booking1 = new ShineWay.Booking();
+            this.txtUserType = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +56,6 @@ namespace ShineWay.UserInterfaces
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.booking1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
@@ -66,6 +65,7 @@ namespace ShineWay.UserInterfaces
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.txtUserType);
             this.panel2.Controls.Add(this.txtTime);
             this.panel2.Controls.Add(this.pnlSelector);
             this.panel2.Controls.Add(this.btnOwnerPayment);
@@ -217,12 +217,16 @@ namespace ShineWay.UserInterfaces
             // 
             this.timer1.Enabled = true;
             // 
-            // booking1
+            // txtUserType
             // 
-            this.booking1.Location = new System.Drawing.Point(72, 164);
-            this.booking1.Name = "booking1";
-            this.booking1.Size = new System.Drawing.Size(1764, 801);
-            this.booking1.TabIndex = 1;
+            this.txtUserType.AutoSize = true;
+            this.txtUserType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtUserType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.txtUserType.Location = new System.Drawing.Point(1525, 69);
+            this.txtUserType.Name = "txtUserType";
+            this.txtUserType.Size = new System.Drawing.Size(43, 19);
+            this.txtUserType.TabIndex = 1;
+            this.txtUserType.Text = "User";
             // 
             // HomeRceptionist
             // 
@@ -256,6 +260,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Panel pnlSelector;
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer timer1;
-        private Booking booking1;
+        private System.Windows.Forms.Label txtUserType;
     }
 }

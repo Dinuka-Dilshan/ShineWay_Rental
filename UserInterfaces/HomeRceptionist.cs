@@ -5,17 +5,23 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using ShineWay.Beautify;
 
 namespace ShineWay.UserInterfaces
 {
     public partial class HomeRceptionist : Form
     {
-        public HomeRceptionist()
+      
+        public HomeRceptionist(string userType)
         {
             StartTimer();
             InitializeComponent();
+            new DropShadow().ApplyShadows(this);
+            txtUserType.Text = userType;
             
         }
+
+
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -81,7 +87,7 @@ namespace ShineWay.UserInterfaces
 
         void t_Tick(object sender, EventArgs e)
         {
-            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
         }
     }
 }
