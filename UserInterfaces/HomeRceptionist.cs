@@ -11,6 +11,7 @@ namespace ShineWay.UserInterfaces
 {
     public partial class HomeRceptionist : Form
     {
+      
         public HomeRceptionist(string userType)
         {
             StartTimer();
@@ -19,6 +20,8 @@ namespace ShineWay.UserInterfaces
             txtUserType.Text = userType;
             
         }
+
+
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
