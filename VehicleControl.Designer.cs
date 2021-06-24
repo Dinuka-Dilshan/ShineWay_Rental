@@ -31,6 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VehicleControl));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.txtExtraKmPrice = new System.Windows.Forms.TextBox();
             this.cmbType = new System.Windows.Forms.ComboBox();
             this.dateTimePickerRegDate = new System.Windows.Forms.DateTimePicker();
@@ -92,15 +101,6 @@
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView_v = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxInsideView)).BeginInit();
@@ -170,6 +170,88 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(631, 669);
             this.panel1.TabIndex = 1;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(546, 464);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(42, 20);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Extra";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(438, 464);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(63, 20);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Monthly";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(354, 464);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(60, 20);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Weekly ";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(264, 464);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(43, 20);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Daily";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(162, 464);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(61, 20);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Hourly  ";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(529, 534);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(63, 20);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Monthly";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(418, 534);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(56, 20);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Weekly";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(302, 534);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(43, 20);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Daily";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(179, 534);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(53, 20);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Hourly";
             // 
             // txtExtraKmPrice
             // 
@@ -430,7 +512,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(1022, 293);
+            this.textBox3.Location = new System.Drawing.Point(1022, 294);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(325, 27);
             this.textBox3.TabIndex = 2;
@@ -566,6 +648,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(1348, 294);
             this.pictureBox3.Name = "pictureBox3";
@@ -756,95 +839,13 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.Text = "dataGridView1";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(179, 534);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 20);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Hourly";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(302, 534);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(43, 20);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Daily";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(418, 534);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(56, 20);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Weekly";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(529, 534);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(63, 20);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Monthly";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(162, 464);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(61, 20);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Hourly  ";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(264, 464);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(43, 20);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Daily";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(354, 464);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(60, 20);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Weekly ";
-            this.label23.Click += new System.EventHandler(this.label23_Click);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(438, 464);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(63, 20);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Monthly";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(546, 464);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(42, 20);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Extra";
-            // 
             // VehicleControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.dataGridView_v);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.dataGridView_v);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
