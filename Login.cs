@@ -33,13 +33,13 @@ namespace ShineWay
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-            /*this.Hide();
+
+            this.Hide();
             var form2 = new HomeRceptionist();
             form2.Closed += (s, args) => this.Close();
-            form2.Show();*/
-
-            if(txtPassword.Text.Trim()==""|| txt_UserName.Text.Trim() == "")
+            form2.Show();
+        }
+          /* if(txtPassword.Text.Trim()==""|| txt_UserName.Text.Trim() == "")
             {
                 new CustomMessage("User name or password is Empty..!").Show();
             }
@@ -66,7 +66,7 @@ namespace ShineWay
                 }
             }
 
-        }
+        }*/
 
         private void button2_Click(object sender, EventArgs e)
         {

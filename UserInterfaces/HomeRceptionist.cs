@@ -12,12 +12,12 @@ namespace ShineWay.UserInterfaces
     public partial class HomeRceptionist : Form
     {
       
-        public HomeRceptionist(string userType)
+        public HomeRceptionist()
         {
-            StartTimer();
+           // StartTimer();
             InitializeComponent();
-            new DropShadow().ApplyShadows(this);
-            txtUserType.Text = userType;
+           // new DropShadow().ApplyShadows(this);
+           // txtUserType.Text = userType;
             
         }
 
@@ -88,6 +88,16 @@ namespace ShineWay.UserInterfaces
         void t_Tick(object sender, EventArgs e)
         {
             txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vehicleControl1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
