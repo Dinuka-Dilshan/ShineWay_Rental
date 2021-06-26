@@ -80,11 +80,11 @@ namespace ShineWay
             this.customerNIC,
             this.name,
             this.startDate});
-            this.dataGridView1.Location = new System.Drawing.Point(796, 111);
+            this.dataGridView1.Location = new System.Drawing.Point(897, 114);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(960, 516);
+            this.dataGridView1.Size = new System.Drawing.Size(803, 516);
             this.dataGridView1.TabIndex = 56;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -211,7 +211,7 @@ namespace ShineWay
             // 
             // cbPT
             // 
-            this.cbPT.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.cbPT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbPT.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbPT.FormattingEnabled = true;
             this.cbPT.Items.AddRange(new object[] {
@@ -227,7 +227,9 @@ namespace ShineWay
             // 
             // dtpED
             // 
+            this.dtpED.CustomFormat = "yyyy-MM-dd";
             this.dtpED.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpED.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpED.Location = new System.Drawing.Point(321, 387);
             this.dtpED.Name = "dtpED";
             this.dtpED.Size = new System.Drawing.Size(253, 28);
@@ -236,6 +238,7 @@ namespace ShineWay
             // 
             // dtpSD
             // 
+            this.dtpSD.CustomFormat = "yyyy-MM-dd";
             this.dtpSD.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpSD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpSD.Location = new System.Drawing.Point(321, 269);
@@ -267,7 +270,7 @@ namespace ShineWay
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.Window;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
             this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.Location = new System.Drawing.Point(48, 673);
             this.label11.Name = "label11";
@@ -279,7 +282,7 @@ namespace ShineWay
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.Window;
+            this.label10.BackColor = System.Drawing.SystemColors.Control;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.Location = new System.Drawing.Point(48, 567);
             this.label10.Name = "label10";
@@ -416,7 +419,7 @@ namespace ShineWay
             // 
             this.txtCNIC.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCNIC.Location = new System.Drawing.Point(321, 151);
-            this.txtCNIC.Mask = "00000000A99";
+            this.txtCNIC.Mask = ">000000000A99";
             this.txtCNIC.Name = "txtCNIC";
             this.txtCNIC.Size = new System.Drawing.Size(253, 28);
             this.txtCNIC.TabIndex = 59;

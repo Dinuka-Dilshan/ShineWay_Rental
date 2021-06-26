@@ -5,6 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using ShineWay.dbConnection;
+using MySql.Data.MySqlClient;
+
 
 namespace ShineWay
 {
@@ -14,6 +17,11 @@ namespace ShineWay
         {
             InitializeComponent();
         }
+
+        /// ///////////////////////////
+        String packagetypecombo = null;       // to store the converted combo box value
+
+
 
         private void txtDis_TextChanged(object sender, EventArgs e)
         {
@@ -100,9 +108,17 @@ namespace ShineWay
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             btnSubmit.ForeColor = Color.Green;
-            
-
+            packagetypecombo = cbPT.SelectedItem.ToString();
             MessageBox.Show("\t******** SHINEWAY ******     \n\n\tVehicle Renal Company\n\t      +94712345678\n\n"+"Booking ID : " + txtBID.Text+"\nVehicle Number : "+txtVRN.Text+"\nCustomer ID : "+txtCNIC.Text+"\nStart Date : "+dtpSD.Value.Date.ToString("dd/MM/yyyy") + "\nEnd Date : "+dtpED.Value.Date.ToString("dd/MM/yyyy") + "\nAdvance Payment : "+txtAP.Text + "\nAllowable KM : "+"\nPrice per extra KM : "+"\n\n********************************\n\tImportant \n\n"+"getfrom database"+ "\n\n********************************\n\nTime  :  " +DateTime.Now.ToString("hh:mm:ss tt"));
+            //  MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` ( `Booking_ID`,  `Start_date`,  `Cus_NIC`, `Discription`) VALUES ( Default, '"+dtpSD.Value+ "' ,'"+txtCNIC.Text+"' , '"+txtDis.Text+"');");
+            // MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`, `Booking_ID`, `Licen_num`, `Start_date`, `Start_ODO`, `Package_Type`, `Cus_NIC`, `Discription`) VALUES ('"+txtVRN.Text+"', null, '"+txtLN.Text+"', '"+dtpSD.Value+"', '"+txtSO.Text+"', '"+cbPT.Text+"', '"+txtCNIC.Text+"', '"+txtDis.Text+"');");
+            // MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`,  `Licen_num`, `Start_ODO` ) VALUES ('" + txtVRN.Text+"','"+txtLN.Text+"','"+txtSO.Text+"');");
+            //MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`, `Cus_NIC`, `Licen_num`, `Start_ODO` ) VALUES ('" + txtVRN.Text + "','"+txtCNIC.Text+"','" + txtLN.Text + "','" + txtSO.Text + "');");
+            // MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`,  `Licen_num`,`Start_ODO`, `Discription` ) VALUES ('" + txtVRN.Text+"','"+txtLN.Text+"','"+txtSO.Text+"','"+txtDis.Text+"' );");
+            //MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`,  `Licen_num`,`Start_ODO`, `Discription`,  `Cus_NIC` ) VALUES ('" + txtVRN.Text + "','" + txtLN.Text + "','" + txtSO.Text + "','" + txtDis.Text + "' , '"+txtCNIC.Text+"');");
+            MySqlDataReader reader = DbConnection.readData("INSERT INTO `booking` (`Vehicle_num`,  `Licen_num`,`Start_ODO`, `Discription`,  `Cus_NIC`, `Start_date`, `Package_Type`  ) VALUES ('" + txtVRN.Text + "','" + txtLN.Text + "','" + txtSO.Text + "','" + txtDis.Text + "' , '" + txtCNIC.Text + "','"+dtpSD.Text+"','"+packagetypecombo+"');");
+
+
         }
 
         private void butReset_Click(object sender, EventArgs e)
@@ -249,6 +265,11 @@ namespace ShineWay
         private void btnUpdate_MouseLeave(object sender, EventArgs e)
         {
             btnUpdate.BackColor = Color.White;
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
