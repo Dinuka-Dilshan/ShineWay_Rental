@@ -60,15 +60,15 @@ namespace ShineWay.UserInterfaces
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1920, 1080);
+            this.panel1.Size = new System.Drawing.Size(2412, 1316);
             this.panel1.TabIndex = 0;
             // 
             // booking1
             // 
             this.booking1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.booking1.Location = new System.Drawing.Point(5, 118);
+            this.booking1.Location = new System.Drawing.Point(5, 116);
             this.booking1.Name = "booking1";
-            this.booking1.Size = new System.Drawing.Size(1906, 951);
+            this.booking1.Size = new System.Drawing.Size(2389, 1188);
             this.booking1.TabIndex = 1;
             // 
             // panel2
@@ -87,7 +87,7 @@ namespace ShineWay.UserInterfaces
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1920, 119);
+            this.panel2.Size = new System.Drawing.Size(2412, 119);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
