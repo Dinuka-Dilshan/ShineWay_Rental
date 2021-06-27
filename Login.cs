@@ -130,6 +130,9 @@ namespace ShineWay
             if (e.KeyCode == Keys.Enter)
             {
                 button1_Click(sender, e);
+            }else if( e.KeyCode == Keys.Up)
+            {
+                txt_UserName.Focus();
             }
 
         }
@@ -139,7 +142,11 @@ namespace ShineWay
             if (e.KeyCode == Keys.Enter)
             {
                 txtPassword.Focus();
+            }else if (e.KeyCode == Keys.Down)
+            {
+                txtPassword.Focus();
             }
+        
         }
 
     }
