@@ -13,8 +13,6 @@ namespace ShineWay.CustomMessages
             setMessage(message);
         }
 
-    
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -29,5 +27,13 @@ namespace ShineWay.CustomMessages
         {
             txtMessage.Text = message;
         }
+
+        public void setMessage(string message, string btnText)
+        {
+            txtMessage.Text = message;
+            btnOk.Text = btnText;
+        }
+
+      
     }
 }

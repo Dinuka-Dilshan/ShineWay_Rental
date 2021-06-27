@@ -29,23 +29,23 @@ namespace ShineWay.CustomMessages
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOk = new System.Windows.Forms.Button();
             this.txtMessage = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnOk
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(217)))), ((int)(((byte)(230)))));
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.button1.Location = new System.Drawing.Point(305, 136);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(217)))), ((int)(((byte)(230)))));
+            this.btnOk.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            this.btnOk.Location = new System.Drawing.Point(305, 136);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(83, 42);
+            this.btnOk.TabIndex = 0;
+            this.btnOk.Text = "OK";
+            this.btnOk.UseVisualStyleBackColor = false;
+            this.btnOk.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtMessage
             // 
@@ -80,7 +80,7 @@ namespace ShineWay.CustomMessages
             this.ClientSize = new System.Drawing.Size(400, 190);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtMessage);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnOk);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CustomMessage";
             this.ShowInTaskbar = false;
@@ -93,7 +93,7 @@ namespace ShineWay.CustomMessages
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Label txtMessage;
         private System.Windows.Forms.Button button2;
     }
