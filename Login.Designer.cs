@@ -138,6 +138,7 @@ namespace ShineWay
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
             // 
             // label2
             // 

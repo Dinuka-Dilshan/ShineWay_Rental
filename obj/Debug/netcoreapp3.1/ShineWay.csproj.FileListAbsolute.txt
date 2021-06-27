@@ -77,6 +77,17 @@ C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.
 C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.dll
 C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.pdb
 C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.ControlPanels.HomeUserControl.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.CustomMessages.CustomMessage.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserControl1.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserInterfaces.HomeRceptionist.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.GenerateResource.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfoInputs.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfo.cs
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CoreCompileInputs.cache
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.exe
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.deps.json
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.json
@@ -91,17 +102,6 @@ C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\MySql.Data.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.ControlPanels.HomeUserControl.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.CustomMessages.CustomMessage.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserControl1.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserInterfaces.HomeRceptionist.resources
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.GenerateResource.cache
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfoInputs.cache
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfo.cs
-C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CoreCompileInputs.cache
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CopyComplete
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.pdb
