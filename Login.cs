@@ -46,24 +46,56 @@ namespace ShineWay
             else
             {
               
-                string query = " SELECT `Username`,`UserType` FROM `users`   WHERE Username = '" + txt_UserName.Text.Trim() + "' AND Password = '" + txtPassword.Text.Trim() + "';";
-                MySqlDataReader reader = DbConnection.readData(query);
-                
+                string query = " SELECT `username`,`user_type` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
 
-                if (reader == null)
+
+
+                try
                 {
-                    new CustomMessage("User name or password is Incorrect..!").Show();
-                }
-                while (reader.Read())
-                {
-                    if(reader[0].ToString().Equals(txt_UserName.Text.Trim()))
+                 MySqlDataReader reader = DbConnection.readData(query);
+                bool loginStatus = false;
+
+
+
+                    while (reader.Read())
                     {
-                        this.Hide();
-                        var form2 = new HomeRceptionist(reader[1].ToString());
-                        form2.Closed += (s, args) => this.Close();
-                        form2.Show();
+                        if (reader[0].ToString().Equals(txt_UserName.Text.Trim()))
+                        {
+                            loginStatus = true;
+                            this.Hide();
+                            var form2 = new HomeRceptionist(reader[1].ToString());
+                            form2.Closed += (s, args) => this.Close();
+                            form2.Show();
+                            new CustomMessage("Welcome..!").Show();
+
+
+
+                        }
+                        else
+                        {
+
+                            break;
+                        }
+                    }
+
+                    if (!loginStatus)
+                    {
+                        new CustomMessage("User name or password is Incorrect..!").Show();
                     }
                 }
+                catch (Exception ex)
+                {
+                    new CustomMessage("Cannot connect to the Database..!").Show();
+                }
+
+                
+ 
+
+         
+                
+
+                
+
             }
 
         }

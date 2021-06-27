@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj": {}
+    "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj": {
+    "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj",
+        "projectUniqueName": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj",
         "projectName": "ShineWay",
-        "projectPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj",
+        "projectPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj",
         "packagesPath": "C:\\Users\\Dinuka Dilshan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\obj\\",
+        "outputPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Dinuka Dilshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
