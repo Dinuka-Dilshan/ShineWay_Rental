@@ -36,5 +36,10 @@ namespace ShineWay.dbConnection
 
         }
 
+        public static void ConnectionClose()
+        {
+            SqlConnection.Close();
+        }
+
     }
 }

@@ -61,6 +61,8 @@ namespace ShineWay
                         form2.Closed += (s, args) => this.Close();
                         form2.Show();
                         new CustomMessage("Welcome..!").Show();
+                        
+                        
 
                     }
                     else
