@@ -46,7 +46,7 @@ namespace ShineWay
             else
             {
               
-                string query = " SELECT `Username`,`UserType` FROM `users`   WHERE Username = '" + txt_UserName.Text.Trim() + "' AND Password = '" + txtPassword.Text.Trim() + "';";
+                string query = " SELECT `username`,`user_type` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
                 MySqlDataReader reader = DbConnection.readData(query);
                 
 
