@@ -95,5 +95,10 @@ namespace ShineWay.UserInterfaces
         {
             
         }
+
+        private void homeUserControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

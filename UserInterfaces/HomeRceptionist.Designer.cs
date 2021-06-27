@@ -32,7 +32,9 @@ namespace ShineWay.UserInterfaces
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeRceptionist));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.homeUserControl1 = new ShineWay.ControlPanels.HomeUserControl();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtUserType = new System.Windows.Forms.Label();
             this.txtTime = new System.Windows.Forms.Label();
             this.pnlSelector = new System.Windows.Forms.Panel();
             this.btnOwnerPayment = new System.Windows.Forms.Button();
@@ -44,7 +46,6 @@ namespace ShineWay.UserInterfaces
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.txtUserType = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,11 +57,19 @@ namespace ShineWay.UserInterfaces
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.homeUserControl1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1920, 1080);
+            this.panel1.Size = new System.Drawing.Size(1956, 1141);
             this.panel1.TabIndex = 0;
+            // 
+            // homeUserControl1
+            // 
+            this.homeUserControl1.Location = new System.Drawing.Point(89, 159);
+            this.homeUserControl1.Name = "homeUserControl1";
+            this.homeUserControl1.Size = new System.Drawing.Size(1700, 900);
+            this.homeUserControl1.TabIndex = 1;
             // 
             // panel2
             // 
@@ -79,9 +88,20 @@ namespace ShineWay.UserInterfaces
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1920, 119);
+            this.panel2.Size = new System.Drawing.Size(1956, 119);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // txtUserType
+            // 
+            this.txtUserType.AutoSize = true;
+            this.txtUserType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtUserType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.txtUserType.Location = new System.Drawing.Point(1525, 69);
+            this.txtUserType.Name = "txtUserType";
+            this.txtUserType.Size = new System.Drawing.Size(43, 19);
+            this.txtUserType.TabIndex = 1;
+            this.txtUserType.Text = "User";
             // 
             // txtTime
             // 
@@ -217,25 +237,16 @@ namespace ShineWay.UserInterfaces
             // 
             this.timer1.Enabled = true;
             // 
-            // txtUserType
-            // 
-            this.txtUserType.AutoSize = true;
-            this.txtUserType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtUserType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.txtUserType.Location = new System.Drawing.Point(1525, 69);
-            this.txtUserType.Name = "txtUserType";
-            this.txtUserType.Size = new System.Drawing.Size(43, 19);
-            this.txtUserType.TabIndex = 1;
-            this.txtUserType.Text = "User";
-            // 
             // HomeRceptionist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1902, 1003);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HomeRceptionist";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -261,5 +272,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label txtUserType;
+        private ControlPanels.HomeUserControl homeUserControl1;
     }
 }
