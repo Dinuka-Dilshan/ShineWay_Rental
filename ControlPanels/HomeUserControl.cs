@@ -14,5 +14,17 @@ namespace ShineWay.ControlPanels
         {
             InitializeComponent();
         }
+
+
+        public void searchFocus()
+        {
+            txt_search.Focus();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pictureBox_searchedVehicle.Image = Image.FromFile("C:\\Users\\Dinuka Dilshan\\Desktop\\lady-img.jpg");
+
+        }
     }
 }

@@ -33,27 +33,27 @@ namespace ShineWay
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
             /*this.Hide();
             var form2 = new HomeRceptionist();
             form2.Closed += (s, args) => this.Close();
             form2.Show();*/
 
-            if(txtPassword.Text.Trim()==""|| txt_UserName.Text.Trim() == "")
+            if (txtPassword.Text.Trim() == "" || txt_UserName.Text.Trim() == "")
             {
                 new CustomMessage("User name or password is Empty..!").Show();
             }
             else
             {
-              
+
                 string query = " SELECT `username`,`user_type` ,`name` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
 
 
 
                 try
                 {
-                 MySqlDataReader reader = DbConnection.readData(query);
-                bool loginStatus = false;
+                    MySqlDataReader reader = DbConnection.readData(query);
+                    bool loginStatus = false;
 
 
 
@@ -66,7 +66,7 @@ namespace ShineWay
                             var form2 = new HomeRceptionist(reader[1].ToString());
                             form2.Closed += (s, args) => this.Close();
                             form2.Show();
-                            new CustomMessage(setGreeting()+" "+ reader[2].ToString()+"..!").Show();
+                            new CustomMessage(setGreeting() + " " + reader[2].ToString() + "..!").Show();
 
 
 
@@ -88,13 +88,13 @@ namespace ShineWay
                     new CustomMessage("Cannot connect to the Database..!").Show();
                 }
 
-                
- 
 
-         
-                
 
-                
+
+
+
+
+
 
             }
 
@@ -112,7 +112,8 @@ namespace ShineWay
             if (DateTime.Now.Hour < 12)
             {
                 greeting = "Good morning";
-            }else if (DateTime.Now.Hour < 17)
+            }
+            else if (DateTime.Now.Hour < 17)
             {
                 greeting = "Good afternoon";
             }
@@ -123,5 +124,30 @@ namespace ShineWay
 
             return greeting;
         }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1_Click(sender, e);
+            }else if( e.KeyCode == Keys.Up)
+            {
+                txt_UserName.Focus();
+            }
+
+        }
+
+        private void txt_UserName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtPassword.Focus();
+            }else if (e.KeyCode == Keys.Down)
+            {
+                txtPassword.Focus();
+            }
+        
+        }
+
     }
 }
