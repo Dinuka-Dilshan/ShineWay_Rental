@@ -4,6 +4,9 @@
     <Compile Update="Booking.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="ControlPanels\HomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="CustomMessages\CustomMessage.cs">
       <SubType>Form</SubType>
     </Compile>

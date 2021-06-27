@@ -92,6 +92,7 @@ C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\MySql.Data.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.ControlPanels.HomeUserControl.resources
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.CustomMessages.CustomMessage.resources
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources

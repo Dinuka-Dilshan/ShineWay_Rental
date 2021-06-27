@@ -89,5 +89,11 @@ namespace ShineWay.UserInterfaces
         {
             txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
         }
+
+
+        void setUserControl(UserControl userControlVisible)
+        {
+            
+        }
     }
 }
