@@ -31,42 +31,49 @@ namespace ShineWay.UserInterfaces
         private void button1_Click(object sender, EventArgs e)
         {
             setSelector(btnHome);
-           
+            setUserControl(homeUserControl1);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             setSelector(btnBooking);
+            setUserControl();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             setSelector(btnCustomers);
+            setUserControl();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             setSelector(btnPayments);
+            setUserControl();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             setSelector(btnUsers);
+            setUserControl();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             setSelector(btnVehicleOwners);
+            setUserControl();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             setSelector(btnOwnerPayment);
+            setUserControl();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             setSelector(btnVehicles);
+            setUserControl();
         }
 
         private void setSelector(Button btn)
@@ -93,7 +100,19 @@ namespace ShineWay.UserInterfaces
 
         void setUserControl(UserControl userControlVisible)
         {
-            
+            homeUserControl1.Hide();
+            userControlVisible.Show();
+        }
+
+        //temporory: until other usercontrols are add.
+        void setUserControl()
+        {
+            homeUserControl1.Hide();
+        }
+
+        private void homeUserControl1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

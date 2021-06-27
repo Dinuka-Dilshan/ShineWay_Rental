@@ -39,9 +39,9 @@ namespace ShineWay.ControlPanels
             this.label_availableVans = new System.Windows.Forms.Label();
             this.labelAvailableBikes = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox_searchedVehicle = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox_searchedVehicle = new System.Windows.Forms.PictureBox();
             this.textBox_search = new System.Windows.Forms.TextBox();
             this.btn_search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,7 +54,7 @@ namespace ShineWay.ControlPanels
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Location = new System.Drawing.Point(121, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(140, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(254, 248);
             this.pictureBox1.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace ShineWay.ControlPanels
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox2.Location = new System.Drawing.Point(451, 68);
+            this.pictureBox2.Location = new System.Drawing.Point(640, 13);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(254, 248);
             this.pictureBox2.TabIndex = 1;
@@ -72,7 +72,7 @@ namespace ShineWay.ControlPanels
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox3.Location = new System.Drawing.Point(789, 68);
+            this.pictureBox3.Location = new System.Drawing.Point(1175, 13);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(254, 248);
             this.pictureBox3.TabIndex = 2;
@@ -83,7 +83,7 @@ namespace ShineWay.ControlPanels
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label1.Location = new System.Drawing.Point(121, 347);
+            this.label1.Location = new System.Drawing.Point(140, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 27);
             this.label1.TabIndex = 3;
@@ -94,7 +94,7 @@ namespace ShineWay.ControlPanels
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label2.Location = new System.Drawing.Point(451, 347);
+            this.label2.Location = new System.Drawing.Point(640, 292);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 27);
             this.label2.TabIndex = 4;
@@ -105,7 +105,7 @@ namespace ShineWay.ControlPanels
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label3.Location = new System.Drawing.Point(789, 347);
+            this.label3.Location = new System.Drawing.Point(1175, 292);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 27);
             this.label3.TabIndex = 5;
@@ -116,7 +116,7 @@ namespace ShineWay.ControlPanels
             this.label_availableCars.AutoSize = true;
             this.label_availableCars.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label_availableCars.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label_availableCars.Location = new System.Drawing.Point(302, 347);
+            this.label_availableCars.Location = new System.Drawing.Point(321, 292);
             this.label_availableCars.Name = "label_availableCars";
             this.label_availableCars.Size = new System.Drawing.Size(65, 27);
             this.label_availableCars.TabIndex = 6;
@@ -127,7 +127,7 @@ namespace ShineWay.ControlPanels
             this.label_availableVans.AutoSize = true;
             this.label_availableVans.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label_availableVans.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label_availableVans.Location = new System.Drawing.Point(640, 347);
+            this.label_availableVans.Location = new System.Drawing.Point(829, 292);
             this.label_availableVans.Name = "label_availableVans";
             this.label_availableVans.Size = new System.Drawing.Size(65, 27);
             this.label_availableVans.TabIndex = 7;
@@ -138,7 +138,7 @@ namespace ShineWay.ControlPanels
             this.labelAvailableBikes.AutoSize = true;
             this.labelAvailableBikes.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelAvailableBikes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.labelAvailableBikes.Location = new System.Drawing.Point(978, 347);
+            this.labelAvailableBikes.Location = new System.Drawing.Point(1364, 292);
             this.labelAvailableBikes.Name = "labelAvailableBikes";
             this.labelAvailableBikes.Size = new System.Drawing.Size(65, 27);
             this.labelAvailableBikes.TabIndex = 8;
@@ -148,10 +148,19 @@ namespace ShineWay.ControlPanels
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.Controls.Add(this.pictureBox_searchedVehicle);
-            this.panel1.Location = new System.Drawing.Point(121, 421);
+            this.panel1.Location = new System.Drawing.Point(140, 366);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(778, 361);
+            this.panel1.Size = new System.Drawing.Size(1029, 407);
             this.panel1.TabIndex = 9;
+            // 
+            // pictureBox_searchedVehicle
+            // 
+            this.pictureBox_searchedVehicle.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox_searchedVehicle.Location = new System.Drawing.Point(65, 74);
+            this.pictureBox_searchedVehicle.Name = "pictureBox_searchedVehicle";
+            this.pictureBox_searchedVehicle.Size = new System.Drawing.Size(254, 248);
+            this.pictureBox_searchedVehicle.TabIndex = 12;
+            this.pictureBox_searchedVehicle.TabStop = false;
             // 
             // button1
             // 
@@ -159,7 +168,7 @@ namespace ShineWay.ControlPanels
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.button1.Location = new System.Drawing.Point(50, 568);
+            this.button1.Location = new System.Drawing.Point(69, 513);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(65, 60);
             this.button1.TabIndex = 10;
@@ -172,26 +181,17 @@ namespace ShineWay.ControlPanels
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.button2.Location = new System.Drawing.Point(905, 568);
+            this.button2.Location = new System.Drawing.Point(1175, 513);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(65, 60);
             this.button2.TabIndex = 11;
             this.button2.Text = ">";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox_searchedVehicle
-            // 
-            this.pictureBox_searchedVehicle.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox_searchedVehicle.Location = new System.Drawing.Point(66, 61);
-            this.pictureBox_searchedVehicle.Name = "pictureBox_searchedVehicle";
-            this.pictureBox_searchedVehicle.Size = new System.Drawing.Size(254, 248);
-            this.pictureBox_searchedVehicle.TabIndex = 12;
-            this.pictureBox_searchedVehicle.TabStop = false;
-            // 
             // textBox_search
             // 
             this.textBox_search.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox_search.Location = new System.Drawing.Point(965, 421);
+            this.textBox_search.Location = new System.Drawing.Point(1277, 366);
             this.textBox_search.Name = "textBox_search";
             this.textBox_search.Size = new System.Drawing.Size(343, 41);
             this.textBox_search.TabIndex = 12;
@@ -203,7 +203,7 @@ namespace ShineWay.ControlPanels
             this.btn_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_search.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.btn_search.Location = new System.Drawing.Point(965, 482);
+            this.btn_search.Location = new System.Drawing.Point(1277, 427);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(343, 47);
             this.btn_search.TabIndex = 13;
@@ -229,7 +229,7 @@ namespace ShineWay.ControlPanels
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "HomeUserControl";
-            this.Size = new System.Drawing.Size(1349, 818);
+            this.Size = new System.Drawing.Size(1676, 801);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
