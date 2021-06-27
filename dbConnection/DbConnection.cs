@@ -9,7 +9,7 @@ namespace ShineWay.dbConnection
         private static MySqlConnection SqlConnection;
 
         //change here according to your database
-        const string str = "datasource=localhost; username=root; password=; database=test";
+        const string str = "datasource=localhost; username=root; password=; database=shineway";
 
 
 
