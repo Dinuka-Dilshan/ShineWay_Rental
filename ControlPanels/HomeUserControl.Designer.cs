@@ -181,7 +181,7 @@ namespace ShineWay.ControlPanels
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.button2.Location = new System.Drawing.Point(1124, 516);
+            this.button2.Location = new System.Drawing.Point(1175, 513);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(65, 60);
             this.button2.TabIndex = 11;

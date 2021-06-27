@@ -46,7 +46,7 @@ namespace ShineWay
             else
             {
               
-                string query = " SELECT `username`,`user_type` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
+                string query = " SELECT `username`,`user_type` ,`name` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
 
 
 
@@ -66,7 +66,7 @@ namespace ShineWay
                             var form2 = new HomeRceptionist(reader[1].ToString());
                             form2.Closed += (s, args) => this.Close();
                             form2.Show();
-                            new CustomMessage("Welcome..!").Show();
+                            new CustomMessage("Welcome "+ reader[2].ToString()+"..!").Show();
 
 
 
