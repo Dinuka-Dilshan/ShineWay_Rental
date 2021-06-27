@@ -114,5 +114,14 @@ namespace ShineWay.UserInterfaces
         {
 
         }
+
+        private void HomeRceptionist_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Control && e.KeyCode == Keys.S)
+            {
+                homeUserControl1.searchFocus();
+            }
+        }
+
     }
 }
