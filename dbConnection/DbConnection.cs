@@ -9,7 +9,7 @@ namespace ShineWay.dbConnection
         private static MySqlConnection SqlConnection;
 
         //change here according to your database
-        const string str = "datasource=localhost; username=root; password=; database=shineway";
+        const string str = "datasource=localhost; username=root; password=; database=vehiclerental";
 
 
 
@@ -35,11 +35,7 @@ namespace ShineWay.dbConnection
             }
 
         }
-
-        public static void ConnectionClose()
-        {
-            SqlConnection.Close();
-        }
+        
 
     }
 }

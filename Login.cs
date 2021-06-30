@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using ShineWay.CustomMessages;
-using ShineWay.Beautify;
-using ShineWay.dbConnection;
-using MySql.Data.MySqlClient;
 using ShineWay.UserInterfaces;
-
 namespace ShineWay
 {
     public partial class Login : Form
@@ -13,7 +8,6 @@ namespace ShineWay
         public Login()
         {
             InitializeComponent();
-            new DropShadow().ApplyShadows(this);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -33,70 +27,12 @@ namespace ShineWay
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            /*this.Hide();
+           ;
+            this.Hide();
             var form2 = new HomeRceptionist();
             form2.Closed += (s, args) => this.Close();
-            form2.Show();*/
+            form2.Show();
 
-            if (txtPassword.Text.Trim() == "" || txt_UserName.Text.Trim() == "")
-            {
-                new CustomMessage("User name or password is Empty..!").Show();
-            }
-            else
-            {
-
-                string query = " SELECT `username`,`user_type` ,`name` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
-
-
-
-                try
-                {
-                    MySqlDataReader reader = DbConnection.readData(query);
-                    bool loginStatus = false;
-
-
-
-                    while (reader.Read())
-                    {
-                        if (reader[0].ToString().Equals(txt_UserName.Text.Trim()))
-                        {
-                            loginStatus = true;
-                            this.Hide();
-                            var form2 = new HomeRceptionist(reader[1].ToString());
-                            form2.Closed += (s, args) => this.Close();
-                            form2.Show();
-                            new CustomMessage(setGreeting() + " " + reader[2].ToString() + "..!").Show();
-
-
-
-                        }
-                        else
-                        {
-
-                            break;
-                        }
-                    }
-
-                    if (!loginStatus)
-                    {
-                        new CustomMessage("User name or password is Incorrect..!").Show();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    new CustomMessage("Cannot connect to the Database..!").Show();
-                }
-
-
-
-
-
-
-
-
-
-            }
 
         }
 
@@ -104,50 +40,5 @@ namespace ShineWay
         {
             Application.Exit();
         }
-
-        public string setGreeting()
-        {
-            string greeting = "";
-
-            if (DateTime.Now.Hour < 12)
-            {
-                greeting = "Good morning";
-            }
-            else if (DateTime.Now.Hour < 17)
-            {
-                greeting = "Good afternoon";
-            }
-            else
-            {
-                greeting = "Good evening";
-            }
-
-            return greeting;
-        }
-
-        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                button1_Click(sender, e);
-            }else if( e.KeyCode == Keys.Up)
-            {
-                txt_UserName.Focus();
-            }
-
-        }
-
-        private void txt_UserName_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                txtPassword.Focus();
-            }else if (e.KeyCode == Keys.Down)
-            {
-                txtPassword.Focus();
-            }
-        
-        }
-
     }
 }

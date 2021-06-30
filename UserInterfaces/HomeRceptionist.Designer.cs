@@ -32,9 +32,8 @@ namespace ShineWay.UserInterfaces
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeRceptionist));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.homeUserControl1 = new ShineWay.ControlPanels.HomeUserControl();
+            this.booking1 = new ShineWay.Booking();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txtUserType = new System.Windows.Forms.Label();
             this.txtTime = new System.Windows.Forms.Label();
             this.pnlSelector = new System.Windows.Forms.Panel();
             this.btnOwnerPayment = new System.Windows.Forms.Button();
@@ -57,24 +56,25 @@ namespace ShineWay.UserInterfaces
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.homeUserControl1);
+            this.panel1.Controls.Add(this.booking1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1956, 1141);
+            this.panel1.Size = new System.Drawing.Size(2436, 1316);
             this.panel1.TabIndex = 0;
             // 
-            // homeUserControl1
+            // booking1
             // 
-            this.homeUserControl1.Location = new System.Drawing.Point(89, 159);
-            this.homeUserControl1.Name = "homeUserControl1";
-            this.homeUserControl1.Size = new System.Drawing.Size(1700, 900);
-            this.homeUserControl1.TabIndex = 10;
+            this.booking1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.booking1.Location = new System.Drawing.Point(7, 119);
+            this.booking1.Name = "booking1";
+            this.booking1.Size = new System.Drawing.Size(2389, 1188);
+            this.booking1.TabIndex = 1;
+            this.booking1.Visible = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.Controls.Add(this.txtUserType);
             this.panel2.Controls.Add(this.txtTime);
             this.panel2.Controls.Add(this.pnlSelector);
             this.panel2.Controls.Add(this.btnOwnerPayment);
@@ -88,20 +88,9 @@ namespace ShineWay.UserInterfaces
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1956, 119);
+            this.panel2.Size = new System.Drawing.Size(2436, 119);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // txtUserType
-            // 
-            this.txtUserType.AutoSize = true;
-            this.txtUserType.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtUserType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
-            this.txtUserType.Location = new System.Drawing.Point(1525, 69);
-            this.txtUserType.Name = "txtUserType";
-            this.txtUserType.Size = new System.Drawing.Size(43, 19);
-            this.txtUserType.TabIndex = 1;
-            this.txtUserType.Text = "User";
             // 
             // txtTime
             // 
@@ -130,8 +119,7 @@ namespace ShineWay.UserInterfaces
             this.btnOwnerPayment.Location = new System.Drawing.Point(878, 50);
             this.btnOwnerPayment.Name = "btnOwnerPayment";
             this.btnOwnerPayment.Size = new System.Drawing.Size(155, 51);
-            this.btnOwnerPayment.TabIndex = 6;
-            this.btnOwnerPayment.TabStop = false;
+            this.btnOwnerPayment.TabIndex = 7;
             this.btnOwnerPayment.Text = "Owner Payment";
             this.btnOwnerPayment.UseVisualStyleBackColor = true;
             this.btnOwnerPayment.Click += new System.EventHandler(this.button8_Click);
@@ -145,8 +133,7 @@ namespace ShineWay.UserInterfaces
             this.btnUsers.Location = new System.Drawing.Point(595, 50);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(62, 51);
-            this.btnUsers.TabIndex = 4;
-            this.btnUsers.TabStop = false;
+            this.btnUsers.TabIndex = 6;
             this.btnUsers.Text = "Users";
             this.btnUsers.UseVisualStyleBackColor = true;
             this.btnUsers.Click += new System.EventHandler(this.button7_Click);
@@ -160,8 +147,7 @@ namespace ShineWay.UserInterfaces
             this.btnPayments.Location = new System.Drawing.Point(459, 50);
             this.btnPayments.Name = "btnPayments";
             this.btnPayments.Size = new System.Drawing.Size(99, 51);
-            this.btnPayments.TabIndex = 3;
-            this.btnPayments.TabStop = false;
+            this.btnPayments.TabIndex = 5;
             this.btnPayments.Text = "Payments";
             this.btnPayments.UseVisualStyleBackColor = true;
             this.btnPayments.Click += new System.EventHandler(this.button6_Click);
@@ -175,8 +161,7 @@ namespace ShineWay.UserInterfaces
             this.btnVehicles.Location = new System.Drawing.Point(1065, 50);
             this.btnVehicles.Name = "btnVehicles";
             this.btnVehicles.Size = new System.Drawing.Size(90, 51);
-            this.btnVehicles.TabIndex = 7;
-            this.btnVehicles.TabStop = false;
+            this.btnVehicles.TabIndex = 4;
             this.btnVehicles.Text = "Vehicles";
             this.btnVehicles.UseVisualStyleBackColor = true;
             this.btnVehicles.Click += new System.EventHandler(this.button5_Click);
@@ -190,8 +175,7 @@ namespace ShineWay.UserInterfaces
             this.btnVehicleOwners.Location = new System.Drawing.Point(686, 50);
             this.btnVehicleOwners.Name = "btnVehicleOwners";
             this.btnVehicleOwners.Size = new System.Drawing.Size(169, 51);
-            this.btnVehicleOwners.TabIndex = 5;
-            this.btnVehicleOwners.TabStop = false;
+            this.btnVehicleOwners.TabIndex = 3;
             this.btnVehicleOwners.Text = "Vehicles Owners";
             this.btnVehicleOwners.UseVisualStyleBackColor = true;
             this.btnVehicleOwners.Click += new System.EventHandler(this.button4_Click);
@@ -204,10 +188,9 @@ namespace ShineWay.UserInterfaces
             this.btnCustomers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.btnCustomers.Location = new System.Drawing.Point(324, 50);
             this.btnCustomers.Name = "btnCustomers";
-            this.btnCustomers.Size = new System.Drawing.Size(104, 51);
+            this.btnCustomers.Size = new System.Drawing.Size(101, 51);
             this.btnCustomers.TabIndex = 2;
-            this.btnCustomers.TabStop = false;
-            this.btnCustomers.Text = "Customers";
+            this.btnCustomers.Text = "customers";
             this.btnCustomers.UseVisualStyleBackColor = true;
             this.btnCustomers.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -221,7 +204,6 @@ namespace ShineWay.UserInterfaces
             this.btnBooking.Name = "btnBooking";
             this.btnBooking.Size = new System.Drawing.Size(90, 51);
             this.btnBooking.TabIndex = 1;
-            this.btnBooking.TabStop = false;
             this.btnBooking.Text = "Booking";
             this.btnBooking.UseVisualStyleBackColor = true;
             this.btnBooking.Click += new System.EventHandler(this.button2_Click);
@@ -236,7 +218,6 @@ namespace ShineWay.UserInterfaces
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(76, 51);
             this.btnHome.TabIndex = 0;
-            this.btnHome.TabStop = false;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.button1_Click);
@@ -249,14 +230,11 @@ namespace ShineWay.UserInterfaces
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1003);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HomeRceptionist";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeRceptionist_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -280,7 +258,6 @@ namespace ShineWay.UserInterfaces
         private System.Windows.Forms.Panel pnlSelector;
         private System.Windows.Forms.Label txtTime;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label txtUserType;
-        private ControlPanels.HomeUserControl homeUserControl1;
+        private Booking booking1;
     }
 }
