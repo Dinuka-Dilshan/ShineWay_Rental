@@ -844,11 +844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj",
+      "projectUniqueName": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj",
       "projectName": "ShineWay",
-      "projectPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\ShineWay.csproj",
+      "projectPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\ShineWay.csproj",
       "packagesPath": "C:\\Users\\Dinuka Dilshan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\C#\\obj\\",
+      "outputPath": "C:\\Users\\Dinuka Dilshan\\Desktop\\New folder (2)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dinuka Dilshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
