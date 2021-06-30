@@ -14,7 +14,7 @@ namespace ShineWay.dbConnection
 
 
         //pass the sql query. then the method will return a reader object with the data .
-        public static MySqlDataReader readData(String query)
+        public static MySqlDataReader  readData  (String query) 
         {
             //create a new conncetion
             SqlConnection = new MySqlConnection(str);
@@ -30,8 +30,8 @@ namespace ShineWay.dbConnection
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
-                return reader;
+                
+                throw new Exception();
             }
 
         }

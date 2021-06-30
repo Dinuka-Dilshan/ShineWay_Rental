@@ -54,8 +54,7 @@ namespace ShineWay
                 {
                     MySqlDataReader reader = DbConnection.readData(query);
                     bool loginStatus = false;
-
-
+                    
 
                     while (reader.Read())
                     {

@@ -106,3 +106,4 @@ C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CopyC
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.dll
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.pdb
 C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.AssemblyReference.cache
