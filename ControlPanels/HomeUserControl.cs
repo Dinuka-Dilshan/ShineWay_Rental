@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
+
 
 namespace ShineWay.ControlPanels
 {
@@ -23,8 +22,8 @@ namespace ShineWay.ControlPanels
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox_searchedVehicle.Image = Image.FromFile("C:\\Users\\Dinuka Dilshan\\Desktop\\lady-img.jpg");
-
+            //pictureBox_searchedVehicle.Image = Image.FromFile("C:\\Users\\Dinuka Dilshan\\Desktop\\lady-img.jpg");
+            
         }
     }
 }
