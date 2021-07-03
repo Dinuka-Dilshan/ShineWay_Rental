@@ -31,6 +31,7 @@ namespace ShineWay.UserInterfaces
         private void button2_Click(object sender, EventArgs e)
         {
             setSelector(btnBooking);
+            booking1.Visible = true;
         }
 
         private void button3_Click(object sender, EventArgs e)

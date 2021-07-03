@@ -32,6 +32,7 @@ namespace ShineWay.UserInterfaces
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeRceptionist));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.booking1 = new ShineWay.Booking();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtTime = new System.Windows.Forms.Label();
             this.pnlSelector = new System.Windows.Forms.Panel();
@@ -44,7 +45,6 @@ namespace ShineWay.UserInterfaces
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.booking1 = new ShineWay.Booking();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -60,8 +60,17 @@ namespace ShineWay.UserInterfaces
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-8, -38);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1920, 1080);
+            this.panel1.Size = new System.Drawing.Size(2436, 1316);
             this.panel1.TabIndex = 0;
+            // 
+            // booking1
+            // 
+            this.booking1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.booking1.Location = new System.Drawing.Point(7, 119);
+            this.booking1.Name = "booking1";
+            this.booking1.Size = new System.Drawing.Size(2389, 1188);
+            this.booking1.TabIndex = 1;
+            this.booking1.Visible = false;
             // 
             // panel2
             // 
@@ -79,7 +88,7 @@ namespace ShineWay.UserInterfaces
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1920, 119);
+            this.panel2.Size = new System.Drawing.Size(2436, 119);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -216,13 +225,6 @@ namespace ShineWay.UserInterfaces
             // timer1
             // 
             this.timer1.Enabled = true;
-            // 
-            // booking1
-            // 
-            this.booking1.Location = new System.Drawing.Point(72, 164);
-            this.booking1.Name = "booking1";
-            this.booking1.Size = new System.Drawing.Size(1764, 801);
-            this.booking1.TabIndex = 1;
             // 
             // HomeRceptionist
             // 
