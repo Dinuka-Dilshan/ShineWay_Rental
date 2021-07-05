@@ -27,11 +27,66 @@ namespace ShineWay
 
         private void button1_Click(object sender, EventArgs e)
         {
-           ;
+           
             this.Hide();
             var form2 = new HomeRceptionist();
             form2.Closed += (s, args) => this.Close();
+
+
             form2.Show();
+
+            if (txtPassword.Text.Trim() == "" || txt_UserName.Text.Trim() == "")
+            {
+                new CustomMessage("User name or password is Empty..!").Show();
+            }
+            else
+            {
+
+                string query = " SELECT `username`,`user_type` ,`name` FROM `users`   WHERE username = '" + txt_UserName.Text.Trim() + "' AND password = '" + txtPassword.Text.Trim() + "';";
+
+
+
+                try
+                {
+                    MySqlDataReader reader = DbConnection.readData(query);
+                    bool loginStatus = false;
+                    
+
+                    while (reader.Read())
+                    {
+                        if (reader[0].ToString().Equals(txt_UserName.Text.Trim()))
+                        {
+                            loginStatus = true;
+                            this.Hide();
+                            var form2 = new HomeRceptionist(reader[1].ToString());
+                            form2.Closed += (s, args) => this.Close();
+                            form2.Show();
+                            new CustomMessage(setGreeting() + " " + reader[2].ToString() + "..!").Show();
+
+
+
+                        }
+                        else
+                        {
+
+                            break;
+                        }
+                    }
+
+                    if (!loginStatus)
+                    {
+                        new CustomMessage("User name or password is Incorrect..!").Show();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    new CustomMessage("Cannot connect to the Database..!").Show();
+                }
+
+
+
+            form2.Show();
+
 
 
         }

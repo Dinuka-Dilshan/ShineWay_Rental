@@ -49,4 +49,94 @@ C:\Users\Dinuka Dilshan\Desktop\c#\New folder\obj\Debug\netcoreapp3.1\ShineWay.c
 C:\Users\Dinuka Dilshan\Desktop\c#\New folder\obj\Debug\netcoreapp3.1\ShineWay.dll
 C:\Users\Dinuka Dilshan\Desktop\c#\New folder\obj\Debug\netcoreapp3.1\ShineWay.pdb
 C:\Users\Dinuka Dilshan\Desktop\c#\New folder\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.exe
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.deps.json
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.json
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.dev.json
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\ShineWay.pdb
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.csproj.AssemblyReference.cache
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.CustomMessages.CustomMessage.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.UserInterfaces.HomeRceptionist.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.csproj.GenerateResource.cache
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfoInputs.cache
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfo.cs
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.csproj.CoreCompileInputs.cache
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.csproj.CopyComplete
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.dll
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.pdb
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.ControlPanels.HomeUserControl.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.CustomMessages.CustomMessage.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserControl1.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.UserInterfaces.HomeRceptionist.resources
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.GenerateResource.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfoInputs.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfo.cs
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CoreCompileInputs.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.exe
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.deps.json
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.json
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.dev.json
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\ShineWay.pdb
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.CopyComplete
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.dll
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.pdb
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+C:\Users\Dinuka Dilshan\Desktop\C#\obj\Debug\netcoreapp3.1\ShineWay.csproj.AssemblyReference.cache
+=======
 C:\Users\Dinuka Dilshan\Desktop\c#\New folder\obj\Debug\netcoreapp3.1\ShineWay.csproj.AssemblyReference.cache
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.exe
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.deps.json
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.json
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.runtimeconfig.dev.json
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\ShineWay.pdb
+G:\C#\Git\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\MySql.Data.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+G:\C#\Git\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.Login.resources
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.Properties.Resources.resources
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.UserInterfaces.HomeRceptionist.resources
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.csproj.GenerateResource.cache
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfoInputs.cache
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.AssemblyInfo.cs
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.csproj.CoreCompileInputs.cache
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.csproj.CopyComplete
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.dll
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.pdb
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.genruntimeconfig.cache
+G:\C#\Git\obj\Debug\netcoreapp3.1\ShineWay.csprojAssemblyReference.cache
+>>>>>>> 37be0248deb3a47fc23be9d31f7bcfa6b0082686
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.Booking.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.ControlPanels.HomeUserControl.resources
+C:\Users\Dinuka Dilshan\Desktop\New folder (2)\obj\Debug\netcoreapp3.1\ShineWay.UserControl1.resources

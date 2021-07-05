@@ -31,6 +31,7 @@ namespace ShineWay.UserInterfaces
         private void button2_Click(object sender, EventArgs e)
         {
             setSelector(btnBooking);
+            booking1.Visible = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -81,7 +82,7 @@ namespace ShineWay.UserInterfaces
 
         void t_Tick(object sender, EventArgs e)
         {
-            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt"); ;
+            txtTime.Text = DateTime.Now.ToString("hh:mm:ss tt");
         }
     }
 }
